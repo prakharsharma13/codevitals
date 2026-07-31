@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=22"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI-powered Repository Health Analysis & Project Intelligence MCP Server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
