@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=22"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "AI-powered Repository Health Analysis & Project Intelligence MCP Server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -55,5 +55,6 @@
   "bugs": {
     "url": "https://github.com/prakharsharma13/codevitals/issues"
   },
-  "homepage": "https://github.com/prakharsharma13/codevitals#readme"
+  "homepage": "https://github.com/prakharsharma13/codevitals#readme",
+  "mcpName": "io.github.prakharsharma13/codevitals"
 }
