@@ -1,8 +1,11 @@
 # CodeVitals
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
-![node](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)
-![typescript](https://img.shields.io/badge/typescript-strict-blue.svg)
+[![npm version](https://img.shields.io/npm/v/@prakhhxrcodes/codevitals.svg)](https://www.npmjs.com/package/@prakhhxrcodes/codevitals)
+[![CI](https://github.com/prakharsharma13/codevitals/actions/workflows/ci.yml/badge.svg)](https://github.com/prakharsharma13/codevitals/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/@prakhhxrcodes/codevitals.svg)](LICENSE)
+[![node](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)](https://nodejs.org)
+
+[![downloads](https://img.shields.io/npm/dm/@prakhhxrcodes/codevitals.svg)](https://www.npmjs.com/package/@prakhhxrcodes/codevitals)
 
 **AI-powered Repository Health Analysis & Project Intelligence MCP Server.**
 
