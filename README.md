@@ -5,8 +5,6 @@
 [![license](https://img.shields.io/npm/l/@prakhhxrcodes/codevitals.svg)](LICENSE)
 [![node](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)](https://nodejs.org)
 
-[![downloads](https://img.shields.io/npm/dm/@prakhhxrcodes/codevitals.svg)](https://www.npmjs.com/package/@prakhhxrcodes/codevitals)
-
 **AI-powered Repository Health Analysis & Project Intelligence MCP Server.**
 
 ## Overview
@@ -34,7 +32,7 @@ AI assistant) and communicates over stdio.
 
 ## Installation
 
-Once published to npm:
+Install globally:
 
 ```bash
 npm install -g @prakhhxrcodes/codevitals
@@ -49,7 +47,7 @@ npx @prakhhxrcodes/codevitals
 ### From source
 
 ```bash
-git clone https://github.com/prakharsharma13/codevitals
+git clone https://github.com/prakharsharma13/codevitals.git
 cd codevitals
 npm install
 npm run build
@@ -226,9 +224,9 @@ Ensure `repositoryPath` is an absolute path to a directory that contains a
 `package.json`. The tool returns a descriptive error message when the path is
 missing or unreadable.
 
-**`npx codevitals` cannot be found.**
-Make sure the package is installed (or published) and that your Node.js version
-is 22 or newer.
+**`npx @prakhhxrcodes/codevitals` cannot be found.**
+Make sure the package name is spelled correctly (including the `@prakhhxrcodes/`
+scope) and that your Node.js version is 22 or newer.
 
 ## Roadmap
 
