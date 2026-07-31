@@ -34,19 +34,19 @@ AI assistant) and communicates over stdio.
 Once published to npm:
 
 ```bash
-npm install -g codevitals
+npm install -g @prakhhxrcodes/codevitals
 ```
 
 Or run it without installing:
 
 ```bash
-npx codevitals
+npx @prakhhxrcodes/codevitals
 ```
 
 ### From source
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/prakharsharma13/codevitals
 cd codevitals
 npm install
 npm run build
@@ -77,7 +77,7 @@ configuration:
   "mcpServers": {
     "codevitals": {
       "command": "npx",
-      "args": ["codevitals"]
+      "args": ["@prakhhxrcodes/codevitals"]
     }
   }
 }

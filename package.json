@@ -1,5 +1,5 @@
 {
-  "name": "codevitals",
+  "name": "@prakhhxrcodes/codevitals",
   "type": "module",
   "engines": {
     "node": ">=22"
