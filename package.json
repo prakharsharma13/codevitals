@@ -47,5 +47,13 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "zod": "^4.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakharsharma13/codevitals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prakharsharma13/codevitals/issues"
+  },
+  "homepage": "https://github.com/prakharsharma13/codevitals#readme"
 }
