@@ -1,0 +1,51 @@
+{
+  "name": "codevitals",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "version": "0.1.0",
+  "description": "AI-powered Repository Health Analysis & Project Intelligence MCP Server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "codevitals": "dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "codevitals",
+    "mcp",
+    "ai",
+    "repository",
+    "analysis",
+    "typescript",
+    "developer-tools"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Prakhar Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
